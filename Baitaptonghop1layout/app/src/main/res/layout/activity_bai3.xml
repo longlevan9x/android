@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_bai3"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/background_text_bai3"
+        android:id="@+id/ln_ver1">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="@string/answer" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:text="@string/question"
+            android:textColor="@color/yellow2"
+            android:textStyle="bold"
+            android:textSize="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_ver2"
+        android:layout_width="150dip"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@+id/ln_ver1"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="@string/play" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/high_score" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/player" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/options" />
+
+    </LinearLayout>
+</RelativeLayout>

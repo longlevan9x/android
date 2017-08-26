@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn bài toán" />
+
+    <CheckBox
+        android:textSize="20dp"
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="20dp"
+        android:text="Bài 1" />
+
+    <CheckBox
+        android:textSize="20dp"
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="55dp"
+        android:text="Bài 2" />
+
+    <CheckBox
+        android:textSize="20dp"
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_x="10dp"
+        android:layout_y="90dp"
+        android:text="Bài 3" />
+
+    <CheckBox
+        android:textSize="20dp"
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_x="10dp"
+        android:layout_y="125dp"
+        android:text="Bài 4" />
+
+    <CheckBox
+        android:textSize="20dp"
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="160dp"
+        android:text="Bài 5" />
+
+    <CheckBox
+        android:textSize="20dp"
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="195dp"
+        android:text="Bài 6" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="230dp"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_x="192dp"
+        android:layout_y="230dp"
+        android:text="Exit" />
+
+</AbsoluteLayout>

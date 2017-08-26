@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:background="@color/red2"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="What type of coffee ?" />
+
+    <RadioButton
+        android:textSize="20dp"
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="30dp"
+        android:text="Type 1" />
+
+    <RadioButton
+        android:textSize="20dp"
+        android:id="@+id/radio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="65dp"
+        android:text="Type 2" />
+
+    <RadioButton
+        android:textSize="20dp"
+        android:id="@+id/radio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_x="10dp"
+        android:layout_y="100dp"
+        android:text="Type 3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_x="3dp"
+        android:layout_y="140dp"
+        android:background="@color/red2"
+        android:gravity="center_vertical"
+        android:text="What else in your coffee ?"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:checked="true"
+        android:textSize="20dp"
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="170dp"
+        android:text="Select 1" />
+
+    <CheckBox
+        android:checked="true"
+        android:textSize="20dp"
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="200dp"
+        android:text="Select 2" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="231dp"
+        android:text="@string/play" />
+
+</AbsoluteLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Baitaptonghop1layout</string>
+    <string name="txt_green">Green</string>
+    <string name="txt_yellow">Yellow</string>
+    <string name="txt_red">Red</string>
+    <string name="txt_blue">Blue</string>
+    <string name="txt_orange">Orange</string>
+    <string name="txt_viole">Violet</string>
+    <string name="txt_indigo">Indigo</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="play">Play</string>
+    <string name="high_score">HighScore</string>
+    <string name="player">Player</string>
+    <string name="options">Options</string>
+    <string name="sign_in_face">Sign in with Facebook</string>
+    <string name="sign_up_mail">Signup with Email</string>
+    <string name="login">Log in</string>
+    <string name="txt_create">On create an Account</string>
+    <string name="txt_accounted">Already have an account?</string>
+    <string name="txt_head">BAKASUKA</string>
+    <string name="name_bank">Ngan Hang BIDV</string>
+    <string name="address">69 Tran Duy Hung</string>
+    <string name="space">200m</string>
+    <string name="answer">Answer My</string>
+    <string name="question">Question</string>
+    <string name="time">26/08/2017 00:00</string>
+
+
+
+
+    <string name="ok">OK</string>
+    <string name="cancel">cancel</string>
+    <string name="done">done</string>
+    <string name="back">back</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+</resources>
