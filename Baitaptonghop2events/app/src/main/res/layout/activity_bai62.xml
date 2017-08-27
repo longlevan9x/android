@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.along.baitaptonghop2events.Bai6Activity2">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="43dp"
+        android:text="Activity2"
+        android:layout_width="200dp"
+        android:textSize="20sp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="250dp"
+        android:textSize="20sp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="42dp"
+        android:text="Du lieu nhan duoc:" />
+
+    <EditText
+        android:id="@+id/txt_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_result"
+        android:layout_below="@+id/txt_result"
+        android:layout_marginTop="31dp"
+        android:text="Done" />
+</RelativeLayout>

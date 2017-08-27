@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Baitaptonghop2events</string>
+    <string name="login">Login</string>
+    <string name="exit">exit</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+</resources>
